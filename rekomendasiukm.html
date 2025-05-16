@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hasil Rekomendasi UKM</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1fa13a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.icon-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-info {
+  margin-left: 10px;
+  color: white;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-id {
+  font-size: 12px;
+}
+
+.navbar-center h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.icon-navbar {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Konten */
+.content {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 700px;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.form-title {
+  color: #28a745;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* UKM List */
+.ukm-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ukm-list a {
+  text-decoration: none;
+}
+
+.ukm-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  border-radius: 6px;
+  background: white;
+}
+
+.ukm-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.ukm-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.ukm-title {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 18px;
+}
+
+.ukm-subtitle {
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.ukm-score {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Tombol */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.lihat-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.lihat-btn:hover {
+  background-color: #218838;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.profile-info i {
+  font-size: 2rem;
+}
+.navbar h1{
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="profile">
+        
+      <div class="profile-info">
+          <i class="fa-solid fa-user"></i>
+          <div>
+              <div class="profile-name">Abdul Walid</div>
+              <div class="profile-id">2271020064</div>
+          </div>
+      </div>
+    </div>
+      <h1>Rekomendasi UKM</h1>
+    </div>
+
+    <div class="navbar-right">
+      <i class="fas fa-home"></i>
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Konten -->
+  <main class="content">
+    <div class="form-container">
+      <h2 class="form-title">Beberapa UKM yang cocok buat kamu</h2>
+
+      <div class="ukm-list">
+        <!-- UKM 1 -->
+        <a href="gabung.php" class="ukm-card">
+          <img src="PNLOGO.png" alt="Pagar Nusa" class="ukm-logo">
+          <div class="ukm-info">
+            <div class="ukm-title">UKM Pagar Nusa</div>
+            <div class="ukm-subtitle">Beladiri, Seni, Keagamaan, Olahraga</div>
+          </div>
+          
+        </a>
+
+        <!-- UKM 2 -->
+        <div class="ukm-card">
+          <img src="ts.png" alt="Tapak Suci" class="ukm-logo">
+          <div class="ukm-info">
+            <div class="ukm-title">UKM Tapak Suci</div>
+            <div class="ukm-subtitle">Beladiri, Seni, Keagamaan, Olahraga</div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="lihat-btn">Lihat lainnya</button>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
