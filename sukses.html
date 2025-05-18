@@ -12,15 +12,49 @@
     background-color: #f4f4f4;
   }
   
-  .navbar {
-    background-color: #27a844;
-    color: white;
+.header {
+    background-color: #28a745;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
-  }
-  
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+}
+.profile-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.profile-name {
+    font-weight: bold;
+}
+.profile-id {
+    font-size: 12px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profile a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+}
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;  
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
   .profile {
     display: flex;
     align-items: center;
@@ -81,36 +115,31 @@
     font-size: 5rem;
     color: #ebe6e6;
   }
-
-  .profile-info {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.profile-info i {
-    font-size: 2rem;
-}
  
   </style>
 
 </head>
 <body>
-  <header class="navbar">
-    <div class="profile">
-        <div class="profile-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-                <div class="profile-name">Abdul Walid</div>
-                <div class="profile-id">2271020064</div>
+ <header class="header">
+        <div class="profile">
+            <a href="profil.php">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="profile-info">
+                    <div class="profile-name">Abdul Walid</div>
+                    <div class="profile-id">2271020064</div>
+                </a>
             </div>
+            </a>
         </div>
-    </div>
 
-    <div class="nav-icons">
-      <i class="fas fa-home"></i>
-            <i class="fas fa-bars"></i>
-    </div>
-  </header>
+        <h1 class="welcome">Selamat datang Walid</h1>
+
+        <div class="nav-icons">
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
+            
+        </div>
+</header>
 
   <main class="content">
     <div class="success-box">

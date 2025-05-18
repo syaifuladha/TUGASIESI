@@ -21,7 +21,12 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+  .nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+    
+}
   .navbar h2 {
     margin: 0;
     font-size: 20px;
@@ -90,7 +95,20 @@
     font-size: 2rem;
     color: #000000;
   }
+.simpan-button {
 
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    width: auto;
+    font-size: 15px;
+  }
   
   </style>
 </head>
@@ -99,11 +117,11 @@
   <!-- Header -->
   <header class="navbar">
     <h2>Profile</h2>
-    
-  <div class="right-icon">
-    <img src="home.png" alt="Home">
-    <img src="menu.png" alt="Menu">
-  </div>
+    <div class="nav-icons">
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
+            
+        </div>
   </header>
 
   <!-- Main Container -->
@@ -133,7 +151,9 @@
       <label>Program Studi</label>
       <input type="text" value="Sistem Informasi">
 
-      <button type="submit">Simpan Perubahan</button>
+     <div class="text">
+        <a href="profil.php" class="simpan-button">Simpan Perubahan</a>
+      </div>
     </form>
   </main>
 

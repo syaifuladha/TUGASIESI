@@ -15,16 +15,13 @@
 }
 
 /* Navbar */
-.navbar {
-    background-color: #1fa13a;
+.header {
+    background-color: #28a745;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
-}
-.navbar-left {
-  display: flex;
-  align-items: center;
+    padding: 10px 20px;
+    color: white;
 }
 
 .icon-profile {
@@ -45,24 +42,6 @@
 
 .user-id {
   font-size: 12px;
-}
-
-.navbar-center h1 {
-  color: white;
-  font-size: 20px;
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  color: white;
-}
-
-.icon-navbar {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
 }
 
 /* Konten */
@@ -130,11 +109,7 @@
   margin-top: 5px;
 }
 
-.ukm-score {
-  color: #28a745;
-  font-weight: bold;
-  font-size: 18px;
-}
+
 
 /* Tombol */
 .button-container {
@@ -156,44 +131,66 @@
 .lihat-btn:hover {
   background-color: #218838;
 }
+.profile-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.profile-name {
+    font-weight: bold;
+}
+.profile-id {
+    font-size: 12px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
 .profile-info {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
-.profile-info i {
-  font-size: 2rem;
+.profile a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
 }
-.navbar h1{
-  color: white;
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;  
 }
-
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
   </style>
 </head>
 <body>
 
   <!-- Navbar -->
-  <header class="navbar">
-    <div class="profile">
-        
-      <div class="profile-info">
-          <i class="fa-solid fa-user"></i>
-          <div>
-              <div class="profile-name">Abdul Walid</div>
-              <div class="profile-id">2271020064</div>
-          </div>
-      </div>
-    </div>
-      <h1>Rekomendasi UKM</h1>
-    </div>
+<header class="header">
+        <div class="profile">
+            <a href="profil.php">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="profile-info">
+                    <div class="profile-name">Abdul Walid</div>
+                    <div class="profile-id">2271020064</div>
+                </a>
+            </div>
+            </a>
+        </div>
 
-    <div class="navbar-right">
-      <i class="fas fa-home"></i>
-      <i class="fas fa-bars"></i>
-    </div>
-  </header>
+        <h1 class="welcome">Selamat datang Walid</h1>
 
+        <div class="nav-icons">
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
+            
+        </div>
+</header>
   <!-- Konten -->
   <main class="content">
     <div class="form-container">

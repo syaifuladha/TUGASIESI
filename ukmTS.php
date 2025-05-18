@@ -182,15 +182,14 @@
 
   <main class="content-box">
     <div class="ukm-box">
-      <img src="PNLOGO.png" alt="Logo Pagar Nusa" class="ukm-logo"/>
+      <img src="ts.png" alt="Logo Tapak Suci" class="ukm-logo"/>
       <div class="ukm-content">
-        <h2>UKM Pagar Nusa</h2>
+        <h2>UKM Tapak Suci</h2>
         <p class="kategori">Beladiri, Seni, Keagamaan, Olahraga</p>
         <p class="deskripsi">
-          UKM Pagar Nusa merupakan Unit Kegiatan Mahasiswa pada UIN Raden Intan Lampung
-          yang berfokus pada beladiri pencak silat. UKM ini tidak hanya bertujuan untuk
-          melatih keterampilan fisik dan bela diri, tetapi juga menanamkan nilai-nilai
-          spiritual, etika, dan rasa kebangsaan yang tinggi kepada anggotanya.
+          Tapak Suci Putera Muhammadiyah adalah salah satu perguruan silat yang berada 
+          di bawah naungan organisasi Muhammadiyah. Aliran ini menggabungkan unsur bela diri, 
+          dakwah Islam, dan pelatihan karakter.
         </p>
       </div>
     </div>

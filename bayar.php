@@ -13,34 +13,52 @@
     background-color: #f4f4f4;
   }
   
-  .navbar {
-    background-color: #27a844;
-    color: white;
+  .header {
+    background-color: #28a745;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
-  }
-  
-  .profile {
+    color: white;
+}
+.profile-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.profile-name {
+    font-weight: bold;
+}
+.profile-id {
+    font-size: 12px;
+}
+.profile {
     display: flex;
     align-items: center;
-  }
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profile a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+}
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;  
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
   
-  .profile .icon {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-  }
-  
-  .info {
-    line-height: 1.2;
-  }
-  
-  .nav-icons .icon {
-    width: 24px;
-    margin-left: 15px;
-  }
+
   
   .payment-container {
     display: flex;
@@ -82,7 +100,7 @@
     text-decoration: none;
     background-color: #28a745;
     color: white;
-    padding: 10px 30px;
+    padding: 5px 20px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -98,22 +116,26 @@
   </style>
 </head>
 <body>
-  <header class="navbar">
-    <div class="profile">
-        <div class="profile-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-                <div class="profile-name">Abdul Walid</div>
-                <div class="profile-id">2271020064</div>
+  <header class="header">
+        <div class="profile">
+            <a href="profil.php">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="profile-info">
+                    <div class="profile-name">Abdul Walid</div>
+                    <div class="profile-id">2271020064</div>
+                </a>
             </div>
+            </a>
         </div>
-    </div>
 
-    <div class="nav-icons">
-      <i class="fas fa-home"></i>
-            <i class="fas fa-bars"></i>
-    </div>
-  </header>
+        <h1 class="welcome">Selamat datang Walid</h1>
+
+        <div class="nav-icons">
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
+            
+        </div>
+</header>
 
   <main class="payment-container">
     <div class="payment-box">

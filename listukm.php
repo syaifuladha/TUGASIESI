@@ -11,35 +11,28 @@
     background-color: #fff;
   }
   
-  .navbar {
-    background-color: #219d38;
-    color: white;
+  .header {
+    background-color: #28a745;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-    position: relative;
-  }
-  
-  .user-info {
-    display: flex;
-    align-items: center;
-  }
-  
-  .user-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .user-name {
-    font-weight: bold;
-  }
-  
-  .user-npm {
-    font-size: 12px;
-  }
+    padding: 10px 20px;
+    color: white;
+}
+
+.user-info {
+  margin-left: 10px;
+  color: white;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-id {
+  font-size: 12px;
+}
   
   .title {
     position: absolute;
@@ -80,7 +73,21 @@
     margin: 8px 0;
     border-radius: 5px;
   }
-  
+  .ukm-list a {
+  text-decoration: none;
+  }
+  .ukm-title {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 18px;
+}
+
+.ukm-subtitle {
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+}
+
   .ukm-card img {
     width: 50px;
     height: 50px;
@@ -97,33 +104,63 @@
     font-size: 13px;
     color: #555;
   }
-  .profile-info {
+.profile-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.profile-name {
+    font-weight: bold;
+}
+.profile-id {
+    font-size: 12px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile-info {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.profile-info i {
-    font-size: 2rem;
+.profile a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
 }
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;  
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
   </style>
 </head>
 <body>
-    <header class="navbar"> 
+    <header class="header"> 
     <div class="profile">
-        
-        <div class="profile-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-                <div class="profile-name">Abdul Walid</div>
-                <div class="profile-id">2271020064</div>
+            <a href="profil.php">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="profile-info">
+                    <div class="profile-name">Abdul Walid</div>
+                    <div class="profile-id">2271020064</div>
+                </a>
             </div>
+            </a>
         </div>
-    </div>
     
     <div class="nav-icons">
-      <i class="fas fa-home"></i>
-      <i class="fas fa-bars"></i>
-    </div>
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
+            
+        </div>
+    
   </div>
 </header>
 <br>
@@ -132,53 +169,68 @@
   <div class="content">
     <h2>Daftar UKM UIN RIL</h2>
     
-    <div class="ukm-card">
-      <img src="PNLOGO.png" alt="UKM Pagar Nusa">
-      <div>
-        <h3>UKM Pagar Nusa</h3>
-        <p>Beladiri, Seni, Keagamaan, Olahraga</p>
-      </div>
+    <div class="ukm-list">
+     <a href="gabung.php" class="ukm-card">
+          <img src="PNLOGO.png" alt="Pagar Nusa" class="ukm-logo">
+          <div class="ukm-info">
+            <div class="ukm-title">UKM Pagar Nusa</div>
+            <div class="ukm-subtitle">Beladiri, Seni, Keagamaan, Olahraga</div>
+          </div>
+          
+        </a>
+
+    <div class="ukm-list">
+      <a href="" class="ukm-card">
+        <img src="ts.png" alt="Tapak Suci" class="ukm-logo">
+          <div class="ukm-info">
+            <div class="ukm-title">UKM Tapak Suci</div>
+            <div class="ukm-subtitle">Beladiri, Seni, Keagamaan, Olahraga</div>
+          </div>
+          </a>
     </div>
 
-    <div class="ukm-card">
-      <img src="ts.png" alt="UKM Tapak Suci">
-      <div>
-        <h3>UKM Tapak Suci</h3>
-        <p>Beladiri, Seni, Keagamaan, Olahraga</p>
-      </div>
+    <div class="ukm-list">
+      <a href="" class="ukm-card">
+        <img src="inkai.png" alt="UKM INKAI">
+      <div class="ukm-info">
+            <div class="ukm-title">UKM INKAI</div>
+            <div class="ukm-subtitle">Beladiri, Seni, Olahraga</div>
+          </div>
+          </a>
     </div>
+     
 
-    <div class="ukm-card">
-      <img src="inkai.png" alt="UKM INKAI">
-      <div>
-        <h3>UKM INKAI</h3>
-        <p>Beladiri, Seni, Olahraga</p>
-      </div>
-    </div>
-
-    <div class="ukm-card">
+    <div class="ukm-list">
+      <a href="" class="ukm-card">
       <img src="hiqma.jpeg" alt="UKM HIQMA">
-      <div>
-        <h3>UKM HIQMA</h3>
-        <p>Seni, Keagamaan, Musik, Menggambar</p>
+      <div class="ukm-info">
+            <div class="ukm-title">UKM HIQMA</div>
+            <div class="ukm-subtitle">Seni, Musik, Keagamaan, Menggambar</div>
       </div>
+          </a>
     </div>
+    
 
-    <div class="ukm-card">
+    <div class="ukm-list">
+      <a href="" class="ukm-card">
       <img src="bahasa.jpeg" alt="UKM Bahasa">
-      <div>
-        <h3>UKM Bahasa</h3>
-        <p>Seni, Karya Tulis</p>
+      <div class="ukm-info">
+            <div class="ukm-title">UKM Bahasa</div>
+            <div class="ukm-subtitle">Seni, Karya, Tulis,</div>
       </div>
+          </a>
     </div>
 
-    <div class="ukm-card">
+    <div class="ukm-list">
+      <a href="" class="ukm-card">
       <img src="Puskima.jpeg" alt="UKM PUSKIMA">
-      <div>
-        <h3>UKM PUSKIMA</h3>
-        <p>Karya Tulis, Seni</p>
+      <div class="ukm-info">
+            <div class="ukm-title">UKM PUSKIMA</div>
+            <div class="ukm-subtitle">Seni, Karya, Tulis,</div>
       </div>
+          </a>
     </div>
+     
 
   </div>
 </body>

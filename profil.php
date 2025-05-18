@@ -26,11 +26,6 @@
     font-size: 20px;
   }
   
-  .nav-icons .icon {
-    width: 24px;
-    margin-left: 15px;
-  }
-  
   .container {
     display: flex;
     justify-content: center;
@@ -83,8 +78,27 @@
   .profile-box{
     font-size: 7rem;
     color: #000000;
+  
   }
+  .update-button {
 
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    font-size: 15px;
+  }
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+    
+}
   </style>
 </head>
 <body>
@@ -93,8 +107,8 @@
   <header class="navbar">
     <h2>Profile</h2>
     <div class="nav-icons">
-      <i class="fas fa-home"></i>
-      <i class="fas fa-bars"></i>
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
     </div>
   </header>
 
@@ -116,6 +130,9 @@
         <div class="ukm-list">
           ! Belum terdaftar !
         </div>
+      </div>
+      <div class="text">
+        <a href="updateprofil.html" class="update-button">Update</a>
       </div>
     </div>
   </main>
