@@ -16,13 +16,13 @@
 }
 
 /* Navbar */
-.navbar {
-    background-color: #27a844;
-    color: white;
+.header {
+    background-color: #28a745;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
+    color: white;
 }
   
   .user-info {
@@ -142,17 +142,18 @@
 .profile {
     display: flex;
     align-items: center;
-  }
-  
-.profile .icon {
-    width: 40px;
-    height: 40px;
+}
+.profile-icon {
+    font-size: 40px;
     margin-right: 10px;
 }
-.nav-icons .icon {
-    width: 24px;
-    margin-left: 15px;
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
 }
+
 .profile-info {
     display: flex;
     align-items: center;
@@ -171,29 +172,46 @@
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  }
-
+}
+.profile a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+}
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+    
+}
+.welcome {
+    font-size: 20px;
+    margin: 0;
+}
 
     </style>
 </head>
 <body>
-<header class="navbar">
-    <div class="profile">
-        
-        <div class="profile-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-                <div class="profile-name">Abdul Walid</div>
-                <div class="profile-id">2271020064</div>
+<header class="header">
+        <div class="profile">
+            <a href="profil.php">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="profile-info">
+                    <div class="profile-name">Abdul Walid</div>
+                    <div class="profile-id">2271020064</div>
+                </a>
             </div>
+            </a>
         </div>
-    </div>
 
-    <div class="nav-icons">
-      <i class="fas fa-home"></i>
-      <i class="fas fa-bars"></i>
-    </div>
-  </header>
+        <h1 class="welcome">Selamat datang Walid</h1>
+
+        <div class="nav-icons">
+            <a href="index.php"><i class="fas fa-home"></i>
+        </a>
+            
+        </div>
+</header>
 
     <main class="main-container">
         <div class="form-container">

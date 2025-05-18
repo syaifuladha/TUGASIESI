@@ -21,8 +21,8 @@
 
   <div class="login-form">
     <form action="dashboard.html" method="GET">
-      <input type="text" placeholder="Nama" required>
-      <input type="password" placeholder="NPM" required>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="password" required>
       <a href="dashboard.php" class="login-button">LOGIN</a>
     </form>
   </div>
