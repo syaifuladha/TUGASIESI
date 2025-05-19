@@ -174,7 +174,7 @@
         <h1 class="welcome">Selamat datang Walid</h1>
 
         <div class="nav-icons">
-            <a href="index.php"><i class="fas fa-home"></i>
+            <a href="login.php"><i class="fas fa-home"></i>
         </a>
             
         </div>

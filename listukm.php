@@ -156,7 +156,7 @@
         </div>
     
     <div class="nav-icons">
-            <a href="index.php"><i class="fas fa-home"></i>
+            <a href="login.php"><i class="fas fa-home"></i>
         </a>
             
         </div>

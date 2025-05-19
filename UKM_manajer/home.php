@@ -6,35 +6,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
-<body>
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #4CAF50;
+.header {
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     color: white;
-    text-align: center;
-    padding: 10px 0;
+}
+ .profile-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.profile-name {
+    font-weight: bold;
+}
+.profile-id {
+    font-size: 12px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
+.profile a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+}
+.nav-icons a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;  
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
-.ukm {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px 0;
+.card {
+  display: flex;
+  border: 2px solid #43B02A;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-.ukm h2 {
-    color: #4CAF50;
+.logo-ukm img {
+  width: 120px;
+  height: auto;
+  border: 2px solid #43B02A;
+  padding: 5px;
+  background-color: #fff;
 }
 
 .deskripsi h2 {
@@ -55,8 +89,8 @@ main {
 
 .edit-button {
   margin-top: 10px;
-  background-color: #E0F2F1;
-  color: #2E7D32;
+  background-color: #2E7D32;
+  color: #ffffff;
   border: 1px solid #2E7D32;
   padding: 6px 12px;
   border-radius: 5px;
@@ -70,10 +104,16 @@ main {
   text-align: center;
 }
 
-.btn-edit:hover, .btn-view:hover {
-    background-color: #45a049;
+.lihat-anggota button {
+  background-color: #43B02A;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
 }
-    </style>
+</style>
 </head>
 <body>
     <header class="header">
@@ -103,21 +143,18 @@ main {
       </div>
       <div class="deskripsi">
         <h2>UKM Pagar Nusa</h2>
+        <button class="edit-button" onclick="Edit">Edit</button>
         <p class="kategori">Beladiri, Seni, Keagamaan, Olahraga</p>
         <p class="detail">
           UKM Pagar Nusa merupakan Unit Kegiatan Mahasiswa pada UIN Raden Intan Lampung yang berfokus pada beladiri pencak silat.
           UKM ini tidak hanya bertujuan untuk melatih keterampilan fisik dan bela diri, tetapi juga menanamkan nilai-nilai spiritual, etika,
           dan rasa kebangsaan yang tinggi kepada anggotanya.
         </p>
-        <div style="display: flex; justify-content: end;">
-        <button class="edit-button" onclick="Edit">Edit</button>
-          <div class="lihat-anggota">
-              <button onclick="lihatanggota">Lihat Anggota</button>
-          </div>
+        <div class="lihat-anggota">
+          <button onclick="lihatanggota">Lihat Anggota</button>
         </div>
       </div>
     </div>
-
   </main>
 </body>
 </html>

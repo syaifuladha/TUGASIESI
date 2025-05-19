@@ -107,7 +107,7 @@
   <header class="navbar">
     <h2>Profile</h2>
     <div class="nav-icons">
-            <a href="index.php"><i class="fas fa-home"></i>
+            <a href="login.php"><i class="fas fa-home"></i>
         </a>
     </div>
   </header>
