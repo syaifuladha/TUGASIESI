@@ -205,7 +205,7 @@
       <img src="hiqma.jpeg" alt="UKM HIQMA">
       <div class="ukm-info">
             <div class="ukm-title">UKM HIQMA</div>
-            <div class="ukm-subtitle">Seni, Musik, Keagamaan, Menggambar</div>
+            <div class="ukm-subtitle">Seni, Musik, Keagamaan, Membaca</div>
       </div>
           </a>
     </div>
@@ -226,7 +226,7 @@
       <img src="Puskima.jpeg" alt="UKM PUSKIMA">
       <div class="ukm-info">
             <div class="ukm-title">UKM PUSKIMA</div>
-            <div class="ukm-subtitle">Seni, Karya, Tulis,</div>
+            <div class="ukm-subtitle">Literasi dan Tulis,</div>
       </div>
           </a>
     </div>
