@@ -95,6 +95,8 @@ main {
   padding: 6px 12px;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  justify-content: end;
 }
 
 .lihat-anggota {
@@ -147,12 +149,15 @@ main {
           UKM ini tidak hanya bertujuan untuk melatih keterampilan fisik dan bela diri, tetapi juga menanamkan nilai-nilai spiritual, etika,
           dan rasa kebangsaan yang tinggi kepada anggotanya.
         </p>
+        <div style="display: flex; justify-content: end;">
         <button class="edit-button" onclick="Edit">Edit</button>
+          <div class="lihat-anggota">
+              <button onclick="lihatanggota">Lihat Anggota</button>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="lihat-anggota">
-      <button onclick="lihatanggota">Lihat Anggota</button>
-    </div>
+
   </main>
 </body>
 </html>
