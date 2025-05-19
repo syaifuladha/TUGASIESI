@@ -166,9 +166,8 @@
                 <div class="profile-info">
                     <div class="profile-name">Abdul Walid</div>
                     <div class="profile-id">2271020064</div>
-                </a>
-            </div>
             </a>
+                </div>
         </div>
 
         <h1 class="welcome">Selamat datang Walid</h1>

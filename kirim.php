@@ -123,6 +123,12 @@
     gap: 15px;
     font-size: 24px;
 }
+h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+
   </style>
 </head>
 <body>
@@ -133,9 +139,8 @@
                 <div class="profile-info">
                     <div class="profile-name">Abdul Walid</div>
                     <div class="profile-id">2271020064</div>
-                </a>
-            </div>
-            </a>
+              </a>
+                 </div>
         </div>
 
         <h1 class="welcome">Selamat datang Walid</h1>

@@ -109,10 +109,13 @@
   
   }
   .payment-container .text{
-    text-align: center;
-  
-    
+    text-align: center;  
   }
+  h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
   </style>
 </head>
 <body>

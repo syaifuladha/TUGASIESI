@@ -182,7 +182,7 @@
 
   <main class="content-box">
     <div class="ukm-box">
-      <img src="Puskima.png" alt="Logo bahasa" class="ukm-logo"/>
+      <img src="puskima.jpeg" alt="Logo puskima" class="ukm-logo"/>
       <div class="ukm-content">
         <h2>UKM Puskima</h2>
         <p class="kategori">literasi dan Tulis</p>

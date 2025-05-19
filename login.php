@@ -20,10 +20,10 @@
   </div>
 
   <div class="login-form">
-    <form action="dashboard.html" method="GET">
-      <input type="text" placeholder="Username" required>
-      <input type="password" placeholder="password" required>
-      <a href="dashboard.php" class="login-button">LOGIN</a>
+    <form action="proses_login.php" method="POST">
+      <input type="text" placeholder="Username" name="username" required>
+      <input type="password" placeholder="password" name="password">
+      <button type="submit" class="login-button">LOGIN</button>
     </form>
   </div>
 

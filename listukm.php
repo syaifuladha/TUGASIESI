@@ -180,7 +180,7 @@
         </a>
 
     <div class="ukm-list">
-      <a href="" class="ukm-card">
+      <a href="ukmTS.php" class="ukm-card">
         <img src="ts.png" alt="Tapak Suci" class="ukm-logo">
           <div class="ukm-info">
             <div class="ukm-title">UKM Tapak Suci</div>
@@ -190,7 +190,7 @@
     </div>
 
     <div class="ukm-list">
-      <a href="" class="ukm-card">
+      <a href="ukmINKAI.php" class="ukm-card">
         <img src="inkai.png" alt="UKM INKAI">
       <div class="ukm-info">
             <div class="ukm-title">UKM INKAI</div>
@@ -201,7 +201,7 @@
      
 
     <div class="ukm-list">
-      <a href="" class="ukm-card">
+      <a href="ukmhiqma.php" class="ukm-card">
       <img src="hiqma.jpeg" alt="UKM HIQMA">
       <div class="ukm-info">
             <div class="ukm-title">UKM HIQMA</div>
@@ -212,7 +212,7 @@
     
 
     <div class="ukm-list">
-      <a href="" class="ukm-card">
+      <a href="ukmbahasa.php" class="ukm-card">
       <img src="bahasa.jpeg" alt="UKM Bahasa">
       <div class="ukm-info">
             <div class="ukm-title">UKM Bahasa</div>
@@ -222,8 +222,8 @@
     </div>
 
     <div class="ukm-list">
-      <a href="" class="ukm-card">
-      <img src="Puskima.jpeg" alt="UKM PUSKIMA">
+      <a href="ukmpuskima.php" class="ukm-card">
+      <img src="puskima.jpeg" alt="UKM PUSKIMA">
       <div class="ukm-info">
             <div class="ukm-title">UKM PUSKIMA</div>
             <div class="ukm-subtitle">Literasi dan Tulis,</div>

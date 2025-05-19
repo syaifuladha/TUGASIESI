@@ -148,7 +148,6 @@
                     <div class="profile-id">2271020064</div>
                 </a>
             </div>
-            </a>
         </div>
 
         <h1 class="welcome">Selamat datang Walid</h1>
@@ -166,7 +165,7 @@
             
             <button class="menu-button" onclick="window.location.href='listukm.php'">List Daftar UKM</button>
 
-            <button class="menu-button-gabung" onclick="window.location.href='gabung.php'"> Gabung UKM</button>
+            <button class="menu-button-gabung" onclick="window.location.href='kirim.php'"> Gabung UKM</button>
         </div>
     </main>
 
