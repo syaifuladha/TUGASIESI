@@ -95,8 +95,8 @@ main {
   padding: 6px 12px;
   border-radius: 5px;
   cursor: pointer;
-  display: flex;
   justify-content: end;
+  text-decoration: none ;
 }
 
 .lihat-anggota {
@@ -113,6 +113,10 @@ main {
   font-size: 16px;
   cursor: pointer;
 }
+ h1 {
+    margin: 0;
+    font-size: 20px;
+  }
 </style>
 </head>
 <body>
@@ -143,13 +147,15 @@ main {
       </div>
       <div class="deskripsi">
         <h2>UKM Pagar Nusa</h2>
-        <button class="edit-button" onclick="Edit">Edit</button>
         <p class="kategori">Beladiri, Seni, Keagamaan, Olahraga</p>
         <p class="detail">
           UKM Pagar Nusa merupakan Unit Kegiatan Mahasiswa pada UIN Raden Intan Lampung yang berfokus pada beladiri pencak silat.
           UKM ini tidak hanya bertujuan untuk melatih keterampilan fisik dan bela diri, tetapi juga menanamkan nilai-nilai spiritual, etika,
           dan rasa kebangsaan yang tinggi kepada anggotanya.
         </p>
+        <div class="text">
+      <a href="edit.php" class="edit-button">Edit</a>
+        
         <div class="lihat-anggota">
           <button onclick="lihatanggota">Lihat Anggota</button>
         </div>

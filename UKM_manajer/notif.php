@@ -67,6 +67,9 @@ main {
 .notif-left {
   display: flex;
   align-items: center;
+  font-size: 30px;
+  color : #28a745;
+  margin-right: 15px;
 }
 
 .notif-left img {
@@ -92,9 +95,19 @@ main {
   color: #333;
 }
 
+.notif-left i{
+  font-size: 2rem;
+  color: #28a745;
+  padding-right: 1.5rem;
+}
+
 .notif-time .jam {
   margin-top: 4px;
 }
+ h1 {
+    margin: 0;
+    font-size: 20px;
+  }
     </style>
 </head>
 <body>
@@ -122,9 +135,11 @@ main {
       <div class="notif-left">
         <i class="fa-solid fa-circle-check"></i>
         <div class="notif-text">
+        
           <p class="title">Pembayaran registrasi telah masuk</p>
           <p class="name">Ahmad Zulaifa Alfanrda</p>
         </div>
+        
       </div>
       <div class="notif-time">
         <p>20 Mei 2025</p>
