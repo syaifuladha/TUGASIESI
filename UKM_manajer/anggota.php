@@ -127,37 +127,37 @@ h1 {
         <span>1. Ahmad Anjay Mabar</span>
         <span>2271020086</span>
         <span>Sistem Informasi</span>
-        <a href="detail.html" class="detail-link">Lihat Detail</a>
+        <a href="profil2.php" class="detail-link">Lihat Detail</a>
       </div>
       <div class="anggota-item">
         <span>2. Boby Bachry Rawrrr</span>
         <span>2216622755</span>
         <span>BKPI</span>
-        <a href="detail.html" class="detail-link">Lihat Detail</a>
+        <a href="profil2.php" class="detail-link">Lihat Detail</a>
       </div>
       <div class="anggota-item">
         <span>3. Doldo Bororo Koar</span>
         <span>22172635614</span>
         <span>Biologi</span>
-        <a href="detail.html" class="detail-link">Lihat Detail</a>
+        <a href="profil2.php" class="detail-link">Lihat Detail</a>
       </div>
       <div class="anggota-item">
         <span>4. Nora Aora Seora</span>
         <span>22710244444</span>
         <span>Kimia</span>
-        <a href="detail.html" class="detail-link">Lihat Detail</a>
+        <a href="profil2.php" class="detail-link">Lihat Detail</a>
       </div>
       <div class="anggota-item">
         <span>5. Nurul Tralalelo Tralala</span>
         <span>22615265674</span>
         <span>Pendidikan Militer</span>
-        <a href="detail.html" class="detail-link">Lihat Detail</a>
+        <a href="profil2.php" class="detail-link">Lihat Detail</a>
       </div>
       <div class="anggota-item">
         <span>6. Tung Sahur Haur Haur</span>
         <span>22444415451</span>
         <span>Hukum Konoha</span>
-        <a href="detail.html" class="detail-link">Lihat Detail</a>
+        <a href="profil2.php" class="detail-link">Lihat Detail</a>
       </div>
     </div>
   </main>

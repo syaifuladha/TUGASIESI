@@ -99,20 +99,25 @@ main {
   text-decoration: none ;
 }
 
-.lihat-anggota {
-  margin-top: 20px;
-  text-align: center;
-}
+.anggota-button {
 
-.lihat-anggota button {
-  background-color: #43B02A;
-  color: white;
-  border: none;
-  padding: 10px 30px;
-  border-radius: 7px;
-  font-size: 16px;
-  cursor: pointer;
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    
+  
+  }
+.text-button{
+  text-align: center;
+  margin-top: 10px;
 }
+  
  h1 {
     margin: 0;
     font-size: 20px;
@@ -122,14 +127,10 @@ main {
 <body>
     <header class="header">
         <div class="profile">
-            <a href="profil.php">
                 <i class="fas fa-user-circle profile-icon"></i>
                 <div class="profile-info">
                     <div class="profile-name">UKM Manajer</div>
-                   
-                </a>
-            </div>
-            </a>
+                </div>
         </div>
 
         <h1 class="welcome">Selamat datang UKM Manajer</h1>
@@ -155,11 +156,12 @@ main {
         </p>
         <div class="text">
       <a href="edit.php" class="edit-button">Edit</a>
-        
-        <div class="lihat-anggota">
-          <button onclick="lihatanggota">Lihat Anggota</button>
         </div>
-      </div>
+
+        <div class="text-button">
+        <a href="anggota.php" class="anggota-button">Lihat Anggota</a>
+        </div>
+      
     </div>
   </main>
 </body>

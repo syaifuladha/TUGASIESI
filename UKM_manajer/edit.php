@@ -60,15 +60,19 @@ h1 {
       border: 2px solid #079f3b;
       border-radius: 12px;
       padding: 25px;
+      text-align: center:
     }
 
     .logo {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 200pxpx;
     }
 
     .logo img {
       width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px auto;
     }
 
     .judul {
@@ -136,9 +140,13 @@ h1 {
   }
   .container .text{
     text-align: center;
-  
-    
   }
+
+#logoinput {
+  display: block;
+  margin : 15px auto ;
+}
+
     </style>
 </head>
 <body>
@@ -164,7 +172,8 @@ h1 {
 </header>
 <div class="container">
     <div class="logo">
-      <img src="PNLOGO.png" alt="Logo UKM">
+      <img id="Logopreview" src="PNLOGO.png" alt="logo UKM" width="150">
+      <input type="file" id="logoinput" accept="image/*">
     </div>
     <div class="judul">UKM Pagar Nusa</div>
 
@@ -195,10 +204,18 @@ UKM Pagar Nusa merupakan Unit Kegiatan Mahasiswa pada UIN Raden Intan Lampung ya
       <a href="home.php" class="selesai-button">Selesai</a>
     </div>
 </div>
-
-
-
-
-
 </body>
 </html>
+
+<script>
+  document.getElementById('logoInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('logoPreview').src = e.target.result;
+      }
+      reader.readAsDataURL(file);
+    }
+  });
+</script>
